@@ -1,1 +1,1 @@
-export { default } from 'test-addon/components/page-title';
+export { default } from 'freestyle-test-addon/components/page-title';

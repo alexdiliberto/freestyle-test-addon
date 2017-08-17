@@ -1,11 +1,11 @@
-# test-addon
+# freestyle-test-addon
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd test-addon`
+* `cd freestyle-test-addon`
 * `npm install`
 
 ## Running
