@@ -3,7 +3,7 @@
         "name": "Freestyle Test Addon",
         "description": "The default blueprint for ember-cli addons.",
         "url": "https://github.com/alexdiliberto/freestyle-test-addon",
-        "version": "0.0.0.ca8d525e"
+        "version": "0.0.0.608c0ee1"
     },
     "files": {
         "addon/components/p-button.js": {
