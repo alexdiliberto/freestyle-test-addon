@@ -1,0 +1,79 @@
+{
+    "project": {
+        "name": "Freestyle Test Addon",
+        "description": "The default blueprint for ember-cli addons.",
+        "url": "https://github.com/alexdiliberto/freestyle-test-addon",
+        "version": "0.0.0.ca8d525e"
+    },
+    "files": {
+        "addon/components/p-button.js": {
+            "name": "addon/components/p-button.js",
+            "modules": {
+                "Components": 1
+            },
+            "classes": {
+                "p-button": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "addon/components/page-title.js": {
+            "name": "addon/components/page-title.js",
+            "modules": {},
+            "classes": {
+                "page-title": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Components": {
+            "name": "Components",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "p-button": 1,
+                "page-title": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "addon/components/page-title.js",
+            "line": 8
+        }
+    },
+    "classes": {
+        "p-button": {
+            "name": "p-button",
+            "shortname": "p-button",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Components",
+            "namespace": "",
+            "file": "addon/components/p-button.js",
+            "line": 8,
+            "description": "```hbs\n{{#p-button color='red'}}Red Button{{/p-button}}\n```"
+        },
+        "page-title": {
+            "name": "page-title",
+            "shortname": "page-title",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Components",
+            "namespace": "",
+            "file": "addon/components/page-title.js",
+            "line": 8,
+            "description": "```hbs\n{{#page-title}}Dummy Page Title{{/page-title}}\n```"
+        }
+    },
+    "elements": {},
+    "classitems": [],
+    "warnings": []
+}
