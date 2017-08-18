@@ -1,0 +1,48 @@
+{{#freestyle-guide title='Acme Co. UI Common' subtitle='Living Style Guide'}}
+
+  {{#freestyle-section name='Visual Style' as |section|}}
+    {{#section.subsection name='Typography'}}
+      {{#freestyle-usage 'typography-times' title='Times New Roman'}}
+        {{freestyle-typeface fontFamily='Times New Roman'}}
+      {{/freestyle-usage}}
+
+      {{#freestyle-usage 'typography-helvetica' title='Helvetica'}}
+        {{freestyle-typeface fontFamily='Helvetica'}}
+      {{/freestyle-usage}}
+    {{/section.subsection}}
+
+    {{#section.subsection name='Color'}}
+      {{#freestyle-usage 'fp' title='Freestyle Palette' usageTitle='Usage'}}
+        {{freestyle-palette
+            colorPalette=colorPalette
+            title='Dummy App Color Palette'
+            description='This component displays the color palette specified in freestyle/palette.json'
+        }}
+      {{/freestyle-usage}}
+
+      {{#freestyle-usage "fpi"
+          title="Freestyle Palette Item"
+          usageTitle="template:application.hbs"
+          jsTitle="controller:freestyle.js"
+      }}
+        {{freestyle-palette-item color=color}}
+      {{/freestyle-usage}}
+    {{/section.subsection}}
+  {{/freestyle-section}}
+
+  {{#freestyle-section name='Components' as |section|}}
+    {{#section.subsection name='Page Title'}}
+      {{#freestyle-usage 'page-title' title='Page Title Component'}}
+        {{#page-title}}Dummy Page Title{{/page-title}}
+      {{/freestyle-usage}}
+    {{/section.subsection}}
+
+    {{#section.subsection name='Button'}}
+      {{#freestyle-usage 'p-button' title='Button Component'}}
+        {{#p-button color='red'}}Red Button{{/p-button}}
+        {{#p-button color='blue'}}Blue Button{{/p-button}}
+      {{/freestyle-usage}}
+    {{/section.subsection}}
+  {{/freestyle-section}}
+
+{{/freestyle-guide}}
