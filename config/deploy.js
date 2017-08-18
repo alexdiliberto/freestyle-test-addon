@@ -7,7 +7,8 @@ module.exports = function(deployTarget) {
   };
 
   ENV.git = {
-    repo: 'git@github.com:alexdiliberto/freestyle-test-addon.git'
+    repo: 'git@github.com:alexdiliberto/freestyle-test-addon.git',
+    worktreePath: '/tmp/addon-deploy',
   };
 
   if (deployTarget === 'development') {
